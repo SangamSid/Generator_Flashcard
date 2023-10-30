@@ -1,6 +1,6 @@
 {
-  "home": "http://sangamsid.github.io/generator_flashcard",
   "name": "flashcard",
+  "home": "http://sangamsid.github.io/generator_flashcard",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
