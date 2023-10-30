@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,300;0,400;1,200;1,400;1,600&family=Lora:ital,wght@1,400;1,500;1,600&family=Roboto:ital,wght@0,400;0,900;1,400&family=Varela&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,300;0,400;1,200;1,400;1,600&family=Lora:ital,wght@1,400;1,500;1,600&family=Roboto:ital,wght@0,400;0,900;1,400&family=Varela&family=Varela+Round&family=Young+Serif&display=swap');
+.App{
+  width: 100%;
+  min-height: 100vh;
+  font-family: 'Young Serif', serif;
+  background-color: rgb(225,232,235);
+}
+.subNav{
+  width: 80%;
+  height: 13vh;
+  margin: 0px auto;
+}
+.active{
+  color: red;
+  border-bottom: 2px solid red;
+  border-bottom: none;
+}
+.createFirstBox{
+  box-shadow: rgba(60,64,67,0.3) 0px 1px 2px 0px,rgba(60,64,67,0.15) 0px 1px 3px 1px ;
+}
+.createSecondBox{
+  box-shadow: rgba(60,64,67,0.3) 0px 1px 2px 0px,rgba(60,64,67,0.15) 0px 1px 3px 1px ;
+  background-color: #faebd7e3;
+}
+.popupBox{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  background: rgba(0,0,0,0.696);
+}
