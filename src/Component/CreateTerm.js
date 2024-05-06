@@ -32,7 +32,7 @@ const CreateTerm = ({values,setFieldValue}) => {
 
                     </div>
 
-                <div className='flex flex-col flex-wrap w-80 gap-3 mx-4 mt-3'>
+                <div className='flex flex-col flex-wrap w-80 gap-3 mx-4 mt-4'>
                     <label htmlFor='enterDefination'> Enter Defination</label>
                     <Field
                     id="enterDefination"
@@ -45,7 +45,7 @@ const CreateTerm = ({values,setFieldValue}) => {
 
 {
     !item.image && 
-    <div className='flex flex-col flex-wrap w-50 gap-3 mr-5 mt-9'>
+    <div className='flex flex-col flex-wrap w-50 gap-3 mr-5 mt-16'>
         <label htmlFor='cardFile' className='border-2 border-solid p-3 flex gap-3'>
 
 <AiFillFileImage className='text-xl'/>
